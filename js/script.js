@@ -7,3 +7,5 @@ function printMessage(msg){
 function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
+let playerMove = 'papier';
+printMessage('zagrałem' + playerMove '!Jeśli twój ruch to nożyce, to wygrywasz!')
