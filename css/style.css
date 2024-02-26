@@ -1,3 +1,32 @@
+.container-title {
+  text-align: center;
+  background: #FFD700;
+  height: 250px;
+}
 
+.container-title h1 {
+  font-weight: bold;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+  text-align: center;
+  word-spacing: 45px;
+  background: orange;
+  height: 250px;
+}
+
+.container-instruction {
+  background: #FFD700;
+  height: 250px;
+}
+
+.container-instruction h1 {
+  text-align: center;
+}
+
+ol {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGtCQUFBO0VBQ0EsbUJBQUE7RUFDQSxhQUFBO0FDQ0o7O0FEQ0E7RUFDSSxpQkFBQTtBQ0VKOztBREFBO0VBQ0ksa0JBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EsYUFBQTtBQ0dKOztBRERBO0VBQ0ksbUJBQUE7RUFDQSxhQUFBO0FDSUo7O0FERkE7RUFDSSxrQkFBQTtBQ0tKOztBREhBO0VBQ0ksYUFBQTtFQUNBLDZCQUFBO0FDTUoiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

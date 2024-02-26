@@ -1,0 +1,25 @@
+.container-title {
+    text-align: center;
+    background: #FFD700;
+    height: 250px;
+}
+.container-title h1 {
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+    word-spacing: 45px;
+    background: orange;
+    height: 250px;
+}
+.container-instruction {
+    background: #FFD700;
+    height: 250px;
+}
+.container-instruction h1 {
+    text-align: center;
+}
+ol {
+    display: flex;
+    justify-content: space-evenly;
+}

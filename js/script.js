@@ -1,5 +1,5 @@
 function playGame(argPlayerInput){
-  let argPlayerInput= '3' ;
+  let argPlayerInput= '3';
   function getMoveName(argMoveId){
     if(argMoveId == 1){
       return 'kamień';
@@ -43,8 +43,8 @@ function playGame(argPlayerInput){
 */
   console.log('Gracz wpisał: ' + playerInput);
 
-  let playerMove = getMoveName(playerInput);
- 
+  /*let argPlayerMove = getMoveName(argPlayerInput);
+ */
   printMessage('Twój ruch to: ' + playerMove);
   
    displayResult(argComputerMove, argPlayerMove);
