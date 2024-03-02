@@ -1,7 +1,7 @@
 {
-  function playGame(playerMove){
+  const playGame = function(playerMove) {
 
-  function getMoveName(argMoveId){
+  const getMoveName = function(argMoveId) {
     if(argMoveId == 1){
       return 'kamień';
     } else if (argMoveId == 2){
@@ -12,9 +12,9 @@
       printMessage('Nie znam ruchu o id ' + argMoveId + '.');
       return 'nieznany ruch';
     }
-  }0
+  }
  
-  function displayResult(argComputerMove, argPlayerMove){
+  const displayResult = function(argComputerMove, argPlayerMove) {
     if(argComputerMove == 'kamień' && argPlayerMove == 'papier'){
       printMessage( 'Ty wygrywasz!');
     } else if (argComputerMove == 'kamień' && argPlayerMove == 'kamień'){
